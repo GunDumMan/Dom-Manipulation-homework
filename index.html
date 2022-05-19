@@ -7,6 +7,7 @@
     <title>Homework</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
 </head>
 
 <body>
@@ -29,6 +30,22 @@
                 <button type="button" class="btn btn-primary">
                     กดไปเเล้ว <span class="badge text-bg-danger" id="count">0</span>
                 </button>
+                <div class="dropdown text-end ms-2">
+                    <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="bi bi-person-circle" style="font-size:30px;"></i>
+                    </a>
+                    <ul class=" dropdown-menu text-small" aria-labelledby="dropdownUser1">
+                        <li><a class="dropdown-item" href="#">New project...</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+
             </div>
         </div>
 
@@ -81,8 +98,6 @@
                 </tbody>
             </table>
         </div>
-
-
 
     </div>
     </div>
