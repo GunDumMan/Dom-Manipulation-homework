@@ -20,9 +20,10 @@ function addTable() {
     dataUserName.innerText = textusername
     let dataSelect = document.createElement('td');
     dataSelect.innerText = textselect
+    row.appendChild(dataSelect)
     row.appendChild(dataName)
     row.appendChild(dataUserName)
-    row.appendChild(dataSelect)
+
     table.appendChild(row)
     document.getElementById('count').innerText = count
 }
